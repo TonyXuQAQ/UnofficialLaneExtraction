@@ -15,7 +15,10 @@ This is the runable re-implementation code of paper Lane-Level Street Map Extrac
 6. Find the discussion between me and the authors in issue [#9](https://github.com/songtaohe/LaneExtraction/issues/9).
 
 ## Dataset
-Follow the steps of [offical LaneExtraction repo](https://github.com/songtaohe/LaneExtraction) to prepair the dataset.
+Run 
+```
+./get_data.bash
+```
 
 ### Taining
 1. 
