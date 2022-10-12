@@ -10,7 +10,9 @@ This is the runable re-implementation code of paper Lane-Level Street Map Extrac
 
 4. For convenience, the pretrained checkpoints for inference are hardcoded written in the inference scripts. Refer to the inference scripts to change loaded checkpoints.
 
-5. All inference outputs are stored in ```./code/laneAndDirectionExtraction/output```
+5. All inference outputs are stored in ```./code/laneAndDirectionExtraction/output```.
+
+6. Find the discussion between me and the authors in issue [#9](https://github.com/songtaohe/LaneExtraction/issues/9).
 
 ## Dataset
 Follow the steps of [offical LaneExtraction repo](https://github.com/songtaohe/LaneExtraction) to prepair the dataset.
@@ -43,11 +45,11 @@ cd turningLaneExtraction
 2. 
 ```
 cd laneAndDirectionExtraction
-./run_train.bash
+./run_test.bash
 ```
 
 3. 
 ```
 cd turningLaneExtraction
-./run_train.bash
+./run_test.bash
 ```
