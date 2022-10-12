@@ -7,12 +7,8 @@ then
     CMD=/bin/bash
 fi
 
-# home_dir=/data_shared_fast1/Docker/yxliu/CenterLineDet
-# dataset_dir=/data_shared_fast1/Data/nuscene
-# container_name=yxliu_centerlinedet
-# port_number=16017
-home_dir=/home/tonyx/LaneExtraction
-dataset_dir=/home/tonyx/LaneExtraction/dataset
+home_dir=/home/tonyx/final_repo/UnofficialLaneExtraction
+dataset_dir=/home/tonyx/UnofficialLaneExtraction/dataset
 container_name=laneextraction
 port_number=5030
 

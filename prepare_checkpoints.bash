@@ -9,5 +9,6 @@ mkdir -p ./code/turningLaneExtraction/model_turningLaneExtraction_640_resnet34_p
 mv models_LaneExtraction/turningLaneExtraction/* ./code/turningLaneExtraction/model_turningLaneExtraction_640_resnet34_poscodev3_v0seg/
 
 mkdir -p ./code/turningLaneValidation/model_turningLaneValidation_run1_640_resnet34_500epseg/
-mv models_LaneExtraction/turningLaneValidation/* ./code/turningLaneExtraction/model_turningLaneValidation_run1_640_resnet34_500epseg/
+mv models_LaneExtraction/turningLaneValidation/* ./code/turningLaneValidation/model_turningLaneValidation_run1_640_resnet34_500epseg/
 
+rm -rf ./models_LaneExtraction.zip

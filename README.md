@@ -10,6 +10,8 @@ This is the runable re-implementation code of paper Lane-Level Street Map Extrac
 
 4. For convenience, the pretrained checkpoints for inference are hardcoded written in the inference scripts. Refer to the inference scripts to change loaded checkpoints.
 
+5. All inference outputs are stored in ```./code/laneAndDirectionExtraction/output```
+
 ## Dataset
 Follow the steps of [offical LaneExtraction repo](https://github.com/songtaohe/LaneExtraction) to prepair the dataset.
 

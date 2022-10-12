@@ -7,5 +7,5 @@ RUN wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86
 RUN dpkg -i cuda-keyring_1.0-1_all.deb
 RUN apt-get update
 RUN apt-get install -y libglib2.0-0 libsm6 libxext6 libxrender1 libgl1-mesa-glx zip git
-RUN pip install pandas scikit-image tflearn opencv-python==4.2.0.32
+RUN pip install pandas scikit-image tflearn opencv-python==4.2.0.32 gdown unzip
 WORKDIR /LaneExtraction
