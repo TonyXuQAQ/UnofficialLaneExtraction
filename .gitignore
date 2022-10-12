@@ -1,0 +1,14 @@
+dataset
+code/dataset_testing
+code/dataset_training
+code/laneAndDirectionExtraction/model_*
+code/laneAndDirectionExtraction/testing_output
+code/laneAndDirectionExtraction/validation_*
+code/vis
+code/turningLaneValidation/model_*
+code/turningLaneValidation/validation_*
+code/turningLaneValidation/testing_*
+code/turningLaneValidation/train_vis
+code/turningLaneExtraction/model_*
+code/turningLaneExtraction/validation_*
+code/turningLaneExtraction/testing_*
